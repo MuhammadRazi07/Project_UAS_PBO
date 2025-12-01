@@ -13,3 +13,23 @@ public class Penumpang implements Bayar {
         this.saldo = 10000;
     }
 
+    public int getID() { return id; }
+    public int getUmur() { return umur; }
+    public boolean getHamil() { return hamil; }
+    public int getSaldo() { return saldo; }
+    public TipePenumpang getTipe() { return tipe; }
+
+    @Override
+    public void bayarOngkos(int ongkos) throws Exception {
+        if (saldo < ongkos) {
+            throw new Exception("Saldo penumpang biasa tidak cukup!");
+        }
+        saldo -= ongkos;
+    }
+
+    @Override
+    public String toString() {
+        return "[BIASA] " + id + " (umur: " + umur + ", hamil: " + hamil + ", saldo: " + saldo + ")";
+    }
+}
+
