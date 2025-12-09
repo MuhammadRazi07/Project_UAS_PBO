@@ -1,6 +1,6 @@
 Sistem Manajemen Penumpang Bus – OOP
 
-  Proyek ini merupakan implementasi program manajemen penumpang bus menggunakan konsep Object-Oriented Programming (OOP). Program dijalankan melalui menu interaktif, mendukung fitur naik/turun penumpang, pengecekan ID, prioritas, dan sistem pembayaran otomatis.
+	Proyek ini merupakan implementasi program manajemen penumpang bus menggunakan konsep Object-Oriented Programming (OOP). Program dijalankan melalui menu interaktif, mendukung fitur naik/turun penumpang, pengecekan ID, prioritas, dan sistem pembayaran otomatis.
 
 Fitur Utama
 1. Sistem Menu Interaktif
