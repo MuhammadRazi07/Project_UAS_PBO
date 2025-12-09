@@ -1,45 +1,61 @@
-Sistem Manajemen Penumpang Bus – OOP
+#  Sistem Manajemen Penumpang Bus – OOP (Java, BlueJ & Ubuntu Compatible)
 
-	Proyek ini merupakan implementasi program manajemen penumpang bus menggunakan konsep Object-Oriented Programming (OOP). Program dijalankan melalui menu interaktif, mendukung fitur naik/turun penumpang, pengecekan ID, prioritas, dan sistem pembayaran otomatis.
+Proyek ini merupakan implementasi program **manajemen penumpang bus** menggunakan konsep **Object-Oriented Programming (OOP)**.  
+Program berjalan melalui **menu interaktif**, mendukung:
 
-Fitur Utama
-1. Sistem Menu Interaktif
+- naik / turun penumpang  
+- pengecekan ID unik  
+- prioritas otomatis  
+- sistem pembayaran ongkos  
+- tampilan daftar penumpang
+
+##  Fitur Utama
+
+###  Sistem Menu Interaktif
 
 ===== BUS TRANS KOETARADJA ======
+
 MENU :
 1. Naikkan Penumpang
 2. Turunkan Penumpang
 3. Lihat Penumpang
 4. Keluar
 
-2. Naikkan Penumpang
-- Input ID, umur, dan status hamil
-- Sistem menentukan tipe penumpang (BIASA / PRIORITAS)
-- Otomatis memotong saldo ongkos bus
-- Validasi: tidak boleh ID duplikat
 
-3. Turunkan Penumpang
-- Menghapus penumpang berdasarkan ID
+###  Naikkan Penumpang
+- input ID, umur, status hamil  
+- validasi ID tidak duplikat  
+- penentuan otomatis BIASA / PRIORITAS  
+- otomatis bayar ongkos (via interface)  
 
-4. Lihat Semua Penumpang
-- Menampilkan daftar penumpang dengan format: [PRIORITAS] 34 (umur: 4, hamil: false, saldo: 8000)
+###  Turunkan Penumpang
+- menghapus penumpang berdasarkan ID
 
-5. Priotitas Otomatis
-Aturan prioritas:
-- Umur > 60  
-- Ibu hamil
+###  Lihat Daftar Penumpang
+Format: [PRIORITAS] 34 (umur: 4, hamil: false, saldo: 8000)
 
-6. Contoh Output Program
+###  Prioritas Otomatis
+Penumpang di-set PRIORITAS jika:
+- umur > 60  
+- hamil = true  
+
+##  Contoh Output Program
 ===== BUS TRANS KOETARADJA ======
+
 MENU :
 1. Naikkan Penumpang
 2. Turunkan Penumpang
 3. Lihat Penumpang
 4. Keluar
+
 Pilih menu: 1
+
 Masukkan ID Penumpang: 34
+
 Masukkan umur: 4
+
 Apakah hamil? (true/false): false
+
 ✔ Penumpang berhasil naik!
 
 ===== DAFTAR PENUMPANG =====
