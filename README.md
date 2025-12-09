@@ -1,4 +1,4 @@
-#  Sistem Manajemen Penumpang Bus – OOP (Java, BlueJ & Ubuntu Compatible)
+#  Sistem Manajemen Penumpang Bus – OOP
 
 Nama : Muhammad Razi Siregar
 
