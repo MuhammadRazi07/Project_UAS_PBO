@@ -1,5 +1,9 @@
 #  Sistem Manajemen Penumpang Bus – OOP (Java, BlueJ & Ubuntu Compatible)
 
+Nama : Muhammad Razi Siregar
+
+NPM : 2408107010101
+
 Proyek ini merupakan implementasi program **manajemen penumpang bus** menggunakan konsep **Object-Oriented Programming (OOP)**.  
 Program berjalan melalui **menu interaktif**, mendukung:
 
