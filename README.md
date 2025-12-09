@@ -43,4 +43,5 @@ Apakah hamil? (true/false): false
 ✔ Penumpang berhasil naik!
 
 ===== DAFTAR PENUMPANG =====
+
 [PRIORITAS] 34 (umur: 4, hamil: false, saldo: 8000)
